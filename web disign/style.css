@@ -1,0 +1,279 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+
+	
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+      /* Styles for the contact form */
+      .contact-form {
+        margin: 50px auto;
+        width: 60%;
+        max-width: 600px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+      .contact-form label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .contact-form input[type="text"],
+      .contact-form input[type="email"],
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+      
+      .contact-form textarea {
+        height: 150px;
+      }
+      
+      .contact-form button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .contact-form button[type="submit"]:hover {
+        background-color: #0069d9;
+      }
+      
+      /* Styles for the contact details */
+      .contact-details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px auto;
+        width: 60%;
+        max-width: 600px;
+      }
+      
+      .contact-details div {
+        flex-basis: 48%;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+      }
+      
+      .contact-details h3 {
+        margin-top: 0;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .contact-details p {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      /* Styles for the social media section */
+      .social-media {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 60%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .social-media a {
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        color: #00000;
+        font-size: 24px;
+        border-radius: 50%;
+        padding: 20px;
+        transition: all 0.3s ease;
+        background-color: #000000;
+      }
+      
+      .social-media a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+      }
+      
+      .social-media i {
+        font-size: 24px;
+      }
+      
+      /* Styles for the map */
+      .map-container {
+        margin-top: 50px;
+        width: 60%;
+        max-width: 600px;
+        height: 400px;
+        border-radius
+  }
+  
+  /* Styles for responsive design */
+  @media screen and (max-width: 768px) {
+    .contact-form, .contact-details, .social-media, .map-container {
+      width: 100%;
+    }
+    
+    .contact-details div {
+      flex-basis: 100%;
+    }
+    
+    .social-media a {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+  }
+  #services{
+   /* Basic styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Header styles */
+      header {
+        background-color:#0000ff;
+        color: #0000ff;
+        padding: 10px 20px;
+      }
+      
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav li:last-child {
+        margin-right: 0;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Main styles */
+      main {
+        padding: 20px;
+      }
+      
+      h1, h2, h3 {
+        margin-top: 0;
+      }
+      
+      h2 {
+        font-size: 2rem;
+      }
+      
+      section {
+        margin-bottom: 50px;
+      }
+      
+      ul li {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      
+      ul li h3 {
+        margin-top: 0;
+      }
+      
+      ul li p {
+        margin-bottom: 10px;
+      }
+      
+      /* Payment gateway styles */
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+      }
+      
+      form label {
+        margin-bottom: 10px;
+      }
+      
+      form input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      
+      form button {
+        align-self: flex-start;
+      }
+      
+      /* Text animation */
+      .animate-text {
+        animation-duration: 4.5s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-right: : : : 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-right: : 0%;
+          width: 100%;
+        }
+      }
+}

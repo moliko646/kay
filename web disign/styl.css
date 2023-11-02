@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	transition: all 0.5s ease;
+}
+
+header.sticky {
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	padding: 5px;
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+section.banner {
+	background-image: url('banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+section.banner h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+section.banner h2 {
+	font-size: 1.5em;
+	margin: 0;
+	margin-top: 10px;
+}
+
+section.banner p {
+	font-size: 1.2em;
+	margin-top: 20px;
+	max-width: 800px;
+	line-height: 1.5em;
+}
+
+.button {
+	display: inline-block;
+	background-color: #fff;
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 1.2em;
+	transition: all 0.3s ease;
+}
+
+.button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+section.about {
+	padding: 50px;
+	text-align: center;
+}
+
+section.about h2 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+section.about p {
+	font-size: 1.2em;
+	margin-top: 20px;
+	line-height: 1.5em;
+}
+
+section.target-market {
+	padding: 50px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+section.target-market h2 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+section.target-market p {
+	font-size: 1.2em;
+	margin-top: 20px;
+	line-height: 1.5em;
+}
+
+section.swot-analysis {
+	padding: 50px;
+	text-align: center;
+}
+
+section.swot-analysis h2 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+section.swot-analysis p {
+	font-size: 1.2em;
+	margin-top: 20px;
+	line-height: 1.5em;
+}
+
+section.competitors {
+	padding: 50px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+section.competitors h2 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+section.competitors ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+<section>
+  <h2>Product Features</h2>
+  <table>
+    <tr>
+      <th>Feature</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Touch Screen</td>
+      <td>A high-resolution touch screen that responds quickly to touch inputs.</td>
+    </tr>
+    <tr>
+      <td>Long Battery Life</td>
+      <td>A powerful battery that lasts up to 10 hours on a single charge.</td>
+    </tr>
+    <tr>
+      <td>Lightweight Design</td>
+      <td>A thin and lightweight design that makes it easy to carry anywhere.</td>
+    </tr>
+  </table>
+  <p style="text-align: justify;">Our product features have been designed with the customer in mind. We understand that our users value intuitive and responsive touch screens, long battery life, and a lightweight design that makes it easy to use on-the-go. With these features, our product is perfect for busy professionals, students, and anyone who needs a reliable device that can keep up with their lifestyle.</p>
+</section>
