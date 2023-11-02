@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us - M Computes</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <header>
+      <h1>M Computes</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Our History</h2>
+        <p>M Computes was founded in 2005 by Michael Smith. He had a passion for technology and saw the need for a reliable computer repair and support service in his community. Over the years, the company has grown and expanded its services to include web design, software development, and IT consulting.</p>
+      </section>
+      <section>
+        <h2>Our Aims and Objectives</h2>
+        <ul>
+          <li>To provide high-quality and affordable computer repair and support services to our clients.</li>
+          <li>To help businesses leverage technology to achieve their goals and stay competitive in today's market.</li>
+          <li>To continuously improve our skills and knowledge in the field of technology.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Organization Structure</h2>
+        <p>At M Computes, we have a dedicated team of professionals who are passionate about technology and committed to providing excellent service to our clients. Here is a brief overview of our organization structure:</p>
+        <ul>
+          <li>Michael Smith - CEO</li>
+          <li>John Doe - IT Consultant</li>
+          <li>Jane Smith - Web Designer</li>
+          <li>David Lee - Software Developer</li>
+          <li>Samantha Jones - Customer Support</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 M Computes. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

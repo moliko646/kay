@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>m.computers Blog</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			justify-content: space-between;
+			text-align: center;
+		}
+		nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+		
+		h1 {
+			margin: 0;
+		}
+		
+		nav {
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+		
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+		}
+		
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 10px;
+		}
+		
+		form {
+			margin: 10px;
+		}
+		
+		form label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		
+		form input[type="text"], form input[type="email"], form textarea {
+			display: block;
+			width: 100%;
+			padding: 5px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		form input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			padding: 5px 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.reviews {
+			margin: 10px;
+		}
+		
+		.review {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+		
+		.review h3 {
+			margin-top: 0;
+		}
+		
+		.review p {
+			margin-top: 0;
+			line-height: 1.5;
+		}
+		.container {
+			max-width: 100spx;
+			margin: 0 auto;
+			padding: 10px;
+			display: flex;
+			flex-wrap: wrap;
+	
+		}
+		.card {
+			background-color: #f1f1f1;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+			padding: 10px;
+			margin-bottom: 20px;
+			flex-basis: calc(33.33% - 20px);
+		}
+		.card  {
+			margin-top: 0;
+			font-size: 14px;
+		}
+		.card p {
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+<body bgcolor="#0000ff">
+	<header>
+	<nav>
+		<ul>
+		 <li><a href="home.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+           <li><a href="services.html">Services</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	
+	
+	<div class="gallery">
+		<div class="container">
+			<div class="card">
+				<p><img src="cpu.jpg"hight="95%"width="95%" alt="Service 1"></p>
+			<p><center>CPU REPAIR</center></p>
+		</div>
+		<div class="card">
+			<p><img src="re.jpg"hight="95%"width="95%"  alt="Service 2"><br></p>
+           <P><CENTER>COMPUTER REPAIR</CENTER></P>
+		</div>
+		<div class="card">
+			<p><img src="networking2.jpg"hight="95%"width="95%"  alt="Service 3"></p>
+          <p><center>NETWORKING</center></p>
+		</div>
+		<div class="card">
+			<p>	<img src="net.webp"hight="95%"width="95%" alt="services 1"></p>
+			<p><center>NETWORKING</center></p>
+		</div >
+	    <div class="card">
+		   	<p> <img src="Data-Recovery.jpg""hight="95%"width="95%" alt="Product 1"></p>
+		       <p><center>DATA RECOVERY</center></p>	
+        </div>
+        <div class="card">
+        	<p> <img src="data.jpg" hight="95%"width="95%"alt="Product 1"></p>
+        	<p><center>DATA RECOVERY</center></p>
+        </div>
+		<div class="card">
+			<p><img src="lep.webp"hight="95%"width="95%" alt="Product 2"></p>
+			<p><center>LEPTOP</center></p>
+		</div>
+		<div class="card">
+			<p>
+	    <img src="laptop_packing5.jpg"hight="95%"width="95%" alt="Product 3"></p>
+	    <p><center>LEPTOPS</center></p>
+		</div>
+		<div class="card">
+			<p><img src="sandiskxpand001-1024x724.jpg"hight="95%"width="95%" alt="Product 1"></p>
+			<p><center>FLESH DISK</center></p>
+		</div>
+		<div class="card">
+			<p><img src="flesh.jpg"hight="95%"width="95%" alt="Product 1"></p>
+			<p><center>FLESH DISK</center></p>
+		</div>
+	   
+				
+	    
+</div>
+</div>
+
+<form>
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name">
+	
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email">
+	
+	<label for="delivery">Delivery:</label>
+	<select id="delivery" name="delivery">
+		<option value="1">Next Day Delivery</option>
+		<option value="2">Standard Delivery</option>
+		<option value="3">Pickup</option>
+	</select>
+	
+	<label for="review">Review:</label>
+	<textarea id="review" name="review"></textarea>
+	
+	<input type="submit" value="Submit Review">
+</form>
+
+<div class="reviews">
+	<div class="review">
+		<h3>Client Name 1</h3>
+		<p>.................................. </p>
+	</div>
+	
+	<div class="review">
+		<h3>Client Name 2</h3>
+		<p>....................................</p>
+	</div>
+	
+	<div class="review">
+		<h3>Client Name 3</h3>
+		<p>...................................</p>
+	</div>
+</div>
+</body>
+</html>
